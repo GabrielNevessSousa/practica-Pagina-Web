@@ -1,0 +1,15 @@
+.header{
+    
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+
+.logo img{
+
+    height: 50px;
+
+}
+
