@@ -48,6 +48,13 @@ section.sect-merch {
     background-size: cover;
 }
 
+section.sect-tours {
+    min-height: 130vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .logo img {
 
     height: 80px;
@@ -240,3 +247,57 @@ button:hover {
     color: wheat;
     
 }
+
+tr{
+    height: 22px;
+    transform: translateY(20vh);
+
+    
+}
+
+.td-dia{
+
+    width: 112px; text-align: center; height: 22px; color: white; font-size: 30px;
+    padding: 29px;
+    
+}
+
+.td-ciudad{
+
+    width: 133.219px; text-align: center; height: 22px;  color: white; font-size: 30px;
+}
+
+.td-lugar{
+
+    width: 163.781px; text-align: center; height: 22px;  color: white; font-size: 30px;
+}
+
+.td-boton {
+    width: 112px; text-align: center; height: 22px; font-size: 30px;
+    
+}
+
+.tabla-tours{
+    width: 100%;
+    padding-bottom: 16px;
+    border-bottom: 1px solid black;
+    border-spacing: 0px;
+}
+
+
+tbody{
+
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;  
+}
+
+tr:hover {
+    background-color: rgb(56, 58, 59);
+    color: #fff;
+}
+
+
+
+
+
