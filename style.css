@@ -1,3 +1,7 @@
+*{
+    font-family: 'Lucida Sans',  Geneva, Verdana, sans-serif;
+}
+
 header {
     display: flex;
     gap: 20em;
@@ -49,8 +53,22 @@ section.sect-merch {
 }
 
 section.sect-tours {
-    min-height: 130vh;
+    min-height: 100vh;
     background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.sect-cookies {
+    min-height: 100vh;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.sect-privacidad {
+    min-height: 100vh;
+    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -84,7 +102,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: antiquewhite;
+    background-color: rgb(250, 250, 250);
     transition: 0.5s ease;
 }
 
@@ -185,7 +203,7 @@ button:hover {
 
     display: flex;
     flex-wrap: wrap;
-    transform: translateY(20vh);
+    transform: translateY(15vh);
     margin-left: 25em;
     
 }
@@ -199,7 +217,6 @@ button:hover {
     border: 0.5px solid gray;
     border-radius: 10px;
     box-shadow: 0 5px 5px blueviolet;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .product-card img {
@@ -224,35 +241,8 @@ button:hover {
     color: #fff;
 }
 
-.scroll-bg{
-
-    background-color: white;
-    width: 400px;
-    margin: 10% auto;
-    padding: 30px;
-    border-radius: 50px;
-
-}
-
-.scroll-div{
-    width: 400px;
-    background-color: white;
-    height: 500px;
-    overflow: hidden;
-    overflow: scroll;
-}
-
-.scroll-object{
-
-    color: wheat;
-    
-}
-
 tr{
     height: 22px;
-    transform: translateY(20vh);
-
-    
 }
 
 .td-dia{
@@ -280,8 +270,10 @@ tr{
 .tabla-tours{
     width: 100%;
     padding-bottom: 16px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid rgb(255, 255, 255);
     border-spacing: 0px;
+    transform: translateY(20vh);
 }
 
 
@@ -296,6 +288,67 @@ tr:hover {
     background-color: rgb(56, 58, 59);
     color: #fff;
 }
+
+.ahref{
+    color: blueviolet;
+}
+
+.cardcookies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto; 
+}
+
+
+.cookies {
+    width: 40%;
+    display: grid;
+    margin: 20px;
+    padding: 20px;
+    border: 0.5px solid gray;
+    border-radius: 30px;
+    box-shadow: 0 5px 5px rgb(105, 105, 105);
+
+}
+
+
+.cookies h1{
+    text-align: center;
+}
+.cookies p{
+    text-align: justify;
+
+}
+
+.cardprivacidad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto; 
+}
+
+
+.privacidad {
+    width: 40%;
+    display: grid;
+    margin: 20px;
+    padding: 20px;
+    border: 0.5px solid gray;
+    border-radius: 30px;
+    box-shadow: 0 5px 5px rgb(105, 105, 105);
+}
+
+
+.privacidad h1{
+    text-align: center;
+}
+.privacidad p{
+    text-align: justify;
+
+}
+
+
 
 
 
