@@ -4,7 +4,7 @@
 
 header {
     display: flex;
-    gap: 20em;
+    gap: 10em;
     justify-content: center;
     height: 100px;
     background-color: blueviolet;
@@ -38,6 +38,8 @@ section.img-fondo {
     background-size: cover;
 }
 
+
+
 section.sect-albums {
     min-height: 100vh;
     background-color: black;
@@ -61,14 +63,14 @@ section.sect-tours {
 
 section.sect-cookies {
     min-height: 100vh;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 section.sect-privacidad {
     min-height: 100vh;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -76,6 +78,12 @@ section.sect-privacidad {
 .logo img {
 
     height: 80px;
+
+}
+
+.carrito img {
+
+    height: 45px;
 
 }
 
@@ -298,6 +306,7 @@ tr:hover {
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto; 
+
 }
 
 
@@ -308,8 +317,7 @@ tr:hover {
     padding: 20px;
     border: 0.5px solid gray;
     border-radius: 30px;
-    box-shadow: 0 5px 5px rgb(105, 105, 105);
-
+    box-shadow: 0 2px 5px blueviolet;
 }
 
 
@@ -320,6 +328,25 @@ tr:hover {
     text-align: justify;
 
 }
+
+.cookies h1{
+    text-align: center;
+    color: #fff;
+}
+
+.cookies h2{
+    color: #fff;
+}
+
+.cookies li{
+    color: #fff;
+}
+
+.cookies p{
+    text-align: justify;
+    color: #fff;
+}
+
 
 .cardprivacidad {
     display: flex;
@@ -336,16 +363,28 @@ tr:hover {
     padding: 20px;
     border: 0.5px solid gray;
     border-radius: 30px;
-    box-shadow: 0 5px 5px rgb(105, 105, 105);
+    box-shadow: 0 2px 5px blueviolet;
 }
+
+
 
 
 .privacidad h1{
     text-align: center;
+    color: #fff;
 }
+
+.privacidad h2{
+    color: #fff;
+}
+
+.privacidad li{
+    color: #fff;
+}
+
 .privacidad p{
     text-align: justify;
-
+    color: #fff;
 }
 
 
