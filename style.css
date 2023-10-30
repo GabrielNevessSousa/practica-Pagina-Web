@@ -36,7 +36,6 @@ section.img-fondo {
     background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("img/Jack-Harlow.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
 }
 
 
