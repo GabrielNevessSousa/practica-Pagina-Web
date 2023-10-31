@@ -40,7 +40,15 @@ section.img-fondo {
 
 
 
+
 section.sect-albums {
+    min-height: 100vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.sect-carrito {
     min-height: 100vh;
     background-color: black;
     background-repeat: no-repeat;
